@@ -84,17 +84,21 @@ body{font-family: "LXGW WenKai Mono TC", monospace;}
   text-shadow: rgb(239, 164, 117) 1px 0 10px;
 }
 
+.content{
+margin-left: 10%;
+margin-right: 10%;
+}
 .page{
-    display:flex;
+  display:flex;
   flex-wrap:wrap;
-  justify-content: space-around;
-  margin: 5%;
+  justify-content: center;
+  margin: 2%;
   line-height: 40px;
 }
 .page img{
-    width:30%;
-margin-right: 3%;
-margin-left: 3%;}
+    max-width: 30%;
+    margin: 3%;
+    }
 
 .page h2{
     font-size: 25px;
