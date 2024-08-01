@@ -87,7 +87,7 @@ body{font-family: "LXGW WenKai Mono TC", monospace;}
 .page{
     display:flex;
   flex-wrap:wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin: 5%;
   line-height: 40px;
 }
